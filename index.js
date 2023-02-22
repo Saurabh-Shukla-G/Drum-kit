@@ -8,8 +8,8 @@ document.addEventListener("keypress", eventListener);
 
 function eventListener(event)
 {   
-    if(event.key.toLowerCase())
-        temp=event.key;
+    if(event.key)
+        temp=event.key.toLowerCase();
     else
         temp=this.innerHTML;
     switch(temp)
